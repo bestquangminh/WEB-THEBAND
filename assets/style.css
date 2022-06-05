@@ -1,6 +1,10 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
 }
 html{
     font-family: sans-serif;
@@ -133,7 +137,7 @@ position: relative;
 }
 #content .member-list{
   padding-top: 32px;
-  overflow: hidden;
+
 
 }
 #content .band-img{
@@ -174,4 +178,129 @@ position: relative;
     padding: 3px 8px;
     color: #fff;
     text-align: center;
+}
+.places {
+    margin: 32px -8px 0;
+}
+.place-items{
+    float: left;
+    width: calc(100%/3);
+    padding: 0 8px;
+}
+.place-img{
+    width: 100%;
+    display: block;
+}
+.place-img:hover{
+    opacity: 0.6;
+}
+.place-body{
+    background-color: white;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    padding:  16px;
+}
+.place-heading{
+    font-size: 15px;
+}
+.place-dates{
+    margin: 15px 0px;
+    opacity: 0.5;
+}
+.place-text{
+    margin: 15px 0px;
+    line-height: 1.5;
+}
+.place-buy-btn{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 13px 18px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.place-buy-btn:hover{
+    background-color: #ccc;
+    color: #000;
+
+}
+.modal{
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.modal-container {
+    background-color: #fff;
+    width: 900px;
+    max-width: calc(100% -32px);
+    min-height: 200px; 
+    position: relative;
+}
+.modal-header {
+    background-color: #009688;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    font-family: "Segoe UI",Arial,sans-serif;
+    letter-spacing: 4px;
+}
+.modal-close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.modal-close:hover{
+    color: #000 ;
+    background-color: #ccc;
+}    
+
+.modal-bag-icon{
+    margin-right: 16px;
+}
+.modal-body{
+    padding: 16px;
+}
+.modal-label{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.modal-input {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 24px;
+}
+#buy-modal{
+    background-color: #009688;
+    width: 100%;
+    padding: 19px;
+    border: 0;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+#buy-modal:hover{
+    color: #000;
+    background-color: #ccc;
+}
+.modal-help{
+    padding: 16px;
+    text-align: right;
+
+}
+.modal-help a{
+    color: #2196F3;
 }
