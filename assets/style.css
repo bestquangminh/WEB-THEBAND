@@ -8,6 +8,7 @@
 }
 html{
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 .text-white{
     color: #fff !important;
@@ -250,6 +251,7 @@ position: relative;
 .place-buy-btn:hover{
     background-color: #ccc;
     color: #000;
+    cursor: pointer;
 
 }
 .modal{
@@ -385,3 +387,35 @@ position: relative;
     border: 0px;
     cursor: pointer;
 }
+
+.map-section img{
+    width: 100%;
+}
+
+#last-footer{
+    text-align: center;
+    padding: 64px 16px;
+}
+
+.social-list{
+    font-size: 24px;
+}
+
+.social-list a {
+    color: rgba(0,0,0,0.6); 
+}
+
+.social-list a:hover{
+    color: rgba(0,0,0,0.3); 
+}
+
+.copyright {
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgba(0,0,0,0.6); 
+}
+
+.copyright a{
+    color: rgba(0,0,0,0.6); 
+}
+
