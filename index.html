@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="StyleSheet" href="assets/style.css">
+    <link rel="StyleSheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="icon" href="https://yt3.ggpht.com/ytc/AKedOLRvPk9tAQiHksD1iLic9CJWmBCvB6y0dPdNP__c1w=s900-c-k-c0x00ffffff-no-rj" type="image/x-icon" />
     <script src="scripts.js"></script>
     <link rel="StyleSheet" href="assets/fontawesome-free-6.1.1-web/css/all.min.css">
@@ -19,19 +20,23 @@
                     <li><a href="#band">BAND</a></li>
                     <li><a href="#tour">TOUR</a></li>
                     <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="">MORE <i class="narrow-down fa-solid fa-caret-down"></i></a>
+                    <li><a href="#">MORE <i class="narrow-down fa-solid fa-caret-down"></i></a>
                         <ul class="subnav">
-                            <li style="display:block ;"><a href="">Merchandise</a></li>
-                            <li style="display:block ;"><a href="">Extras</a></li>
-                            <li style="display:block ;"><a href="">Media</a></li>
+                            <li style="display:block ;"><a href="#">Merchandise</a></li>
+                            <li style="display:block ;"><a href="#">Extras</a></li>
+                            <li style="display:block ;"><a href="#">Media</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
             <div class="search-icon">
                <i class="fa-solid fa-magnifying-glass"></i>
-            
             </div>
+
+            <div id="mobile-menu" class="menu-search-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
         </div>
         <div id="slider">
             <div class="text-content">
@@ -46,15 +51,15 @@
                 <p class="section-sub-heading">We love music</p>
                 <p class="desription">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div class="member-list">
-                    <div class="col col-third text-center">
+                    <div class=" col col-third text-center">
                         <P class="band-name">name</P>
                         <img src="assets/img/bandmember.jpg" class="band-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class=" col col-third text-center">
                         <P class="band-name">name</P>
                         <img src="assets/img/bandmember.jpg" class="band-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class=" col col-third text-center">
                         <P class="band-name">name</P>
                         <img src="assets/img/bandmember.jpg" class="band-img">
                     </div>
@@ -73,7 +78,7 @@
                         <li>November <span class="tickets-numbers">3</span></li>
                     </ul>
                     <div class="row places">
-                        <div class="col col-third">
+                        <div class="place-item col col-third">
                             <img src="assets/img/place/newyork.jpg" alt="" class="place-img">
                             <div class="place-body">
 
@@ -86,10 +91,10 @@
                                 <p class="place-text">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button href="#" class="place-buy-btn js-buy-tickets">Buy Tickets</button>
+                                <button href="#" class="s-full-width place-buy-btn js-buy-tickets">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col-third">
+                        <div class="place-item col col-third">
                             <img src="assets/img/place/paris.jpg" alt="" class="place-img">
                             <div class="place-body">
 
@@ -102,10 +107,10 @@
                                 <p class="place-text">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button href="#" class="place-buy-btn js-buy-tickets">Buy Tickets</button>
+                                <button href="#" class="s-full-width place-buy-btn js-buy-tickets">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col-third">
+                        <div class="place-item col col-third">
                             <img src="assets/img/place/sanfran.jpg" alt="" class="place-img">
                             <div class="place-body">
 
@@ -118,7 +123,7 @@
                                 <p class="place-text">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button href="#" class="place-buy-btn js-buy-tickets">Buy Tickets</button>
+                                <button href="#" class="s-full-width place-buy-btn js-buy-tickets">Buy Tickets</button>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -136,18 +141,18 @@
                     <div class="contact-content">
 
                         <div class="row">
-                         <div class="col col-half contact-info">
+                         <div class="col col-half contact-info s-col-full">
                              <p><i class="fa-solid fa-location-dot"></i>HO CHI MINH CITY</p>
                              <p><i class="fa-solid fa-phone"></i>Phone: +84 41998638</p>
                              <p><i class="fa-solid fa-envelope"></i>Email: bestquangminh@gmail.com</p>
                          </div>
-                         <div class="col col-half contact-input">
+                         <div class="col col-half contact-input s-col-full">
                              <form action="">
                                  <div class="row">
-                                     <div class="col col-half">
+                                     <div class="s-col-full col col-half s-mt8">
                                          <input type="text" placeholder="Name" required name="" id="" class="form-control">
                                      </div>
-                                     <div class="col col-half">
+                                     <div class="s-col-full col col-half s-mt8">
                                          <input type="email" placeholder="Email" required name="" id="" class="form-control">
                                      </div>
                                  </div>
@@ -157,7 +162,7 @@
                                          <input type="text" placeholder="Message" required name="" id="" class="form-control">
                                      </div>
                                  </div>
-                                 <input class="form-submit" type="submit"  value="SEND">
+                                 <input class="form-submit s-full-width" type="submit"  value="SEND">
                              </form>
                          </div>
                         </div> 
@@ -234,6 +239,37 @@
         modalClose.addEventListener('click', CloseBuyTickets)
         modal.addEventListener('click', CloseBuyTickets)
         modalContainer.addEventListener('click', function (event){event.stopPropagation()})
+    </script>
+
+    <script>
+        // đóng mở mobile menu
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight; 
+        mobileMenu.onclick = function () {
+            var isClose = header.clientHeight === headerHeight;
+            if (isClose){
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+        
+        // tự động đóng mở menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for(var i =0; i<menuItems.length; i++){
+            var menuItem = menuItems[i];
+            
+            
+            menuItem.onclick = function(event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if(isParentMenu) {
+                    event.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+            }
+        }
     </script>
 
 </body>

@@ -99,6 +99,14 @@ html{
 #nav .narrow-down{
     font-size: 12px;
 }
+
+#header .menu-search-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#header .menu-search-btn,
 #header .search-icon{
     float: right;
     color: white;
@@ -110,10 +118,15 @@ html{
     background-color: #f44336
 }
 
+#header .menu-search-btn:hover {
+    background-color: white;
+    color: #000;
+}
+
 #slider{
 margin-top: 46.5px;
 padding-top: 50%;
-background:url('img/chicago.jpg') top center / cover no-repeat;
+background:url('/assets/img/chicago.jpg') top center / cover no-repeat;
 position: relative;
 }
 #slider .text-content{
@@ -134,9 +147,12 @@ position: relative;
 
 .content-section{
     width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right:auto;
     padding: 64px 16px;
+    padding-left: 16px;
+    padding-left: 16px;
 }
 #content .section-heading,
 #content .section-sub-heading,
@@ -418,4 +434,6 @@ position: relative;
 .copyright a{
     color: rgba(0,0,0,0.6); 
 }
+
+
 
