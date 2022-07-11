@@ -1,5 +1,5 @@
 /*MOBILE*/
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
     .s-full-width,
     .s-col-full {
         width: 100% !important;
@@ -68,7 +68,7 @@
 /*MOBILE*/
 
 /*PC AND TABLET*/
-@media (min-width: 741px) {
+@media (min-width: 46.3125em) {
     #mobile-menu {
         display: none;
     }
@@ -76,7 +76,7 @@
 /*PC AND TABLET*/
 
 /*TABLET and MOBILE*/
-@media (max-width: 1023px) { 
+@media (max-width: 63.9375em) { 
     .social-list { 
         font-size: 48px;
     }
