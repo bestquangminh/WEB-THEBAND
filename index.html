@@ -39,6 +39,9 @@
 
         </div>
         <div id="slider">
+            <img src="assets/img/chicago.jpg" alt="" class="slide-show">
+            <img src="assets/img/LA.jpg" alt="" class="slide-show">
+            <img src="assets/img/NewYork.jpg" alt="" class="slide-show">
             <div class="text-content">
                 <h1 class="text-heading">New York</h1>
                 <p class="sub-text-content">The atmosphere in New York is lorem ipsum.</p>
@@ -270,6 +273,21 @@
                 }
             }
         }
+
+        var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slide-show");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
     </script>
 
 </body>
